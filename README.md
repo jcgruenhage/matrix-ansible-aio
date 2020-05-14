@@ -13,6 +13,9 @@ Deploy:
    - ???
  - matrix-ircd
  - mjolnir
+ - web dashboards:
+   - invite links for registration available for existing users
+   - very basic admin panel
 
 ## Tech Stack
  - Ansible for config management and deployment
