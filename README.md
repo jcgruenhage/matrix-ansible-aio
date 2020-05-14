@@ -9,6 +9,7 @@ Deploy:
  - bridges:
    - telegram
    - discord
+   - whatsapp
    - ???
  - matrix-ircd
 
