@@ -14,6 +14,7 @@ Deploy:
  - matrix-ircd
  - mjolnir
  - matrix-media-repo
+ - coturn
  - web dashboards (need to be built first):
    - invite links for registration available for existing users
    - very basic admin panel
