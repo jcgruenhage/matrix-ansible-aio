@@ -30,3 +30,6 @@ Deploy:
 
 ## Documentation
  - mdbook
+
+## Bikeshedding Topics
+ - ansible galaxy vs git submodules
