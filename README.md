@@ -12,6 +12,7 @@ Deploy:
    - whatsapp
    - ???
  - matrix-ircd
+ - mjolnir
 
 ## Tech Stack
  - Ansible for config management and deployment
