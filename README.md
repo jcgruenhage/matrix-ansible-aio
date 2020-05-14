@@ -13,6 +13,7 @@ Deploy:
    - ???
  - matrix-ircd
  - mjolnir
+ - matrix-media-repo
  - web dashboards:
    - invite links for registration available for existing users
    - very basic admin panel
