@@ -2,6 +2,10 @@
 [![Matrix Channel](https://img.shields.io/matrix/matrix-ansible-aio:entropia.de?server_fqdn=matrix.org)](https://matrix.to/#/#matrix-ansible-aio:entropia.de)
 # Nothing to see here yet, just some discussions/planning
 
+## Target audience
+ - people setting up a server for their peergroup with limited sysadmin knowledge
+ - sysadmins that don't want to think about the stuff much
+
 ## Goals
 Deploy:
  - synapse
