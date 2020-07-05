@@ -11,10 +11,19 @@ Deploy:
  - synapse
  - riot
  - bridges:
-   - telegram
-   - discord
-   - whatsapp
-   - ???
+   - [Telegram](https://telegram.org/) with https://github.com/tulir/mautrix-telegram
+   - [Discord](https://discord.com/) with https://github.com/matrix-discord/mx-puppet-discord (requires breaking ToS for DMs)
+   - [WhatsApp](https://www.whatsapp.com/) with https://github.com/tulir/mautrix-whatsapp
+   - [Instagram DMs](https://www.instagram.com/) with https://github.com/Sorunome/mx-puppet-instagram
+   - [Facebook Messenger](https://www.messenger.com/) with https://github.com/tulir/mautrix-facebook
+   - [Steam DMs](https://store.steampowered.com/) with https://github.com/icewind1991/mx-puppet-steam
+   - [TwitterDMs](https://twitter.com/) with https://github.com/Sorunome/mx-puppet-twitter (requires API Token from twitter)
+   - [Skype](https://www.skype.com/) with https://github.com/Sorunome/mx-puppet-skype
+   - [Slack](https://slack.com/) with https://github.com/Sorunome/mx-puppet-slack
+   - [Mattermost](https://mattermost.com/) with https://github.com/matrix-hacks
+/matrix-puppet-mattermost
+   - [iMessage](https://support.apple.com/explore/messages) with https://github.com/matrix-hacks/matrix-puppet-imessage
+   - [Signal](https://www.signal.org/) with https://github.com/witchent/matrix-puppet-signal
  - matrix-ircd
  - mjolnir
  - matrix-media-repo
