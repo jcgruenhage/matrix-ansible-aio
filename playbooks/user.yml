@@ -1,0 +1,28 @@
+---
+
+- host: [ all ]
+  become: yes
+  tasks:
+    - name: Create matrix group
+      group:
+        name: "{{ namespace }}matrix"
+        system: yes
+        state: present
+      register: matrix_group_res
+    - name: Create synapse user
+      user:
+        name: "{{ namespace}}synapse"
+        system: yes
+        state: present
+        group: "{{ matrix_group_res.gid }}"
+      register: matrix_synapse_user_res
+      when: homeserver_impl == 'synapse'
+    - name: Create dendrite user
+      user:
+        name: "{{ namespace}}dendrite"
+        system: yes
+        state: present
+        group: "{{ matrix_group_res.gid }}"
+      register: matrix_dendrite_user_res
+      when: homeserver_impl == 'dendrite'
+

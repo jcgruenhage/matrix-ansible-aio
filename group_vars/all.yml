@@ -1,0 +1,14 @@
+# Domain the matrix server handles (`_fqdn`) and where the server for
+# the domain is located (`_server_fqdn`). It is common praxis to use
+# the `matrix.` for running the matrix server of a given domain.
+matrix_fqdn: "example.org"
+matrix_server_fqdn: "matrix.{{ matrix_fqdn }}"
+
+# global namespace, will prefix users, base_dir and docker containers
+# to ensure multiple instances can be run on the same machine.
+namespace: ""
+
+
+# which homeserver to use, the default is synapse
+homeserver_impl: synapse
+

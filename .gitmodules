@@ -1,0 +1,3 @@
+[submodule "ansible_collections/famedly/matrix"]
+	path = ansible_collections/famedly/matrix
+	url = git@gitlab.com:famedly/ansible/collections/matrix.git

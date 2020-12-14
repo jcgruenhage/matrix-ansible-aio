@@ -1,0 +1,14 @@
+---
+
+- hosts: [ all ]
+  become: yes
+  collections:
+    - famedly.matrix
+  pre_tasks: []
+  roles:
+    - name: synapse
+      when: homeserver_impl == 'synapse'
+  tasks: []
+  vars:
+    matrix_server_name: "{{ matrix_fqdn }}"
+
